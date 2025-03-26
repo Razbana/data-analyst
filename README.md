@@ -4,7 +4,7 @@ Phase 1
 
 Project Title: Data Wrangling for Enhanced Cloud Data Processing at Razbana
 
-Project Description: Data Wrangling for Cloud Computing Analytics at Razbanroject 
+Project Description: Data Wrangling for Cloud Computing Analytics at Razbana's project 
 
 Objective: The primary goal of this project is to perform comprehensive data wrangling to prepare a robust dataset for cloud computing analytics at Razbana. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of operational data for subsequent analysis and reporting.
 
@@ -16,7 +16,10 @@ Dataset: The data wrangling process will involve multiple datasets, including:
 ![image](https://github.com/user-attachments/assets/5475356f-c834-42bd-bafc-8a4ecb25bf27)
 
 •	Transformed Data: Processed and cleaned datasets stored in the transformation bucket (cov-trf-raz).
+![image](https://github.com/user-attachments/assets/8ea343ee-c86d-4f03-844b-099facdcf859)
+
 •	Curated Insights: Summarized and aggregated data stored in the curated bucket (cov-cur-raz).
+![image](https://github.com/user-attachments/assets/aa614c3b-2e62-4aee-be9c-7fabb842d99a)
 
 Methodology:
 1.	Data Collection:
@@ -37,6 +40,7 @@ o	Aggregate and derive new insights such as total outstanding amounts per artist
 6.	Data Consolidation:
 o	Merge cleaned and transformed data into structured tables using AWS Glue Data Catalog.
 o	Store structured metadata in databases for easy retrieval and management.
+![image](https://github.com/user-attachments/assets/b024610e-af6d-430e-b16d-2419eb0b1d47)
 
 8.	Documentation and Validation:
 o	Maintain detailed logs of cleaning processes, transformation steps, and schema changes.
@@ -63,6 +67,7 @@ Phase 2
 Project Title: Understanding Public Art Data in Vancouver Using AWS
 
 Objective: The primary goal of this project is to conduct a descriptive analysis of public art records in Vancouver. Through this analysis, we aim to summarize key characteristics of artist biographies, identify gaps in documentation, and generate insights that can improve data collection and historical preservation.
+![image](https://github.com/user-attachments/assets/057543e3-6c50-49fc-87d1-01cb7d4a8d13)
 
 Dataset: The dataset includes public art records stored in AWS, containing the following key features:
 •	Artist Name: Name of the artist featured in the public art records.
@@ -76,6 +81,8 @@ Methodology:
 1.	Data Collection and Preparation:
 o	Extract data from the AWS Glue Data Catalog ("con-data-catalog-raz").
 o	Perform data cleaning to address missing biographies, correct formatting issues, and remove duplicates.
+![part 7ss13](https://github.com/user-attachments/assets/988ad9cc-b833-4bcc-a0f9-055c5b79b78a)
+
 
 Descriptive Statistics:
 o	Calculate summary statistics for key variables, including:
@@ -104,6 +111,7 @@ o	Provide actionable recommendations based on the findings to improve data quali
 	Enhance artist biography documentation efforts.
 	Standardize data entry processes for artwork classification.
 	Improve data governance for public art records.
+![part 7ss16](https://github.com/user-attachments/assets/c693e0ba-e8e2-4a91-9456-7cbda0645540)
 
 Tools and Technologies:
 •	AWS Athena: Querying structured datasets.
