@@ -12,6 +12,9 @@ Background: Razbana's cloud computing project involves processing and analyzing 
 
 Dataset: The data wrangling process will involve multiple datasets, including:
 •	Raw Operational Data: Extracted from Vancouver's operational landscape and stored in the S3 bucket (cov-raw-raz).
+
+![image](https://github.com/user-attachments/assets/5475356f-c834-42bd-bafc-8a4ecb25bf27)
+
 •	Transformed Data: Processed and cleaned datasets stored in the transformation bucket (cov-trf-raz).
 •	Curated Insights: Summarized and aggregated data stored in the curated bucket (cov-cur-raz).
 
@@ -55,4 +58,61 @@ Timeline:
 •	Expected completion: 6 weeks, covering data ingestion, profiling, cleaning, transformation, and validation.
 This data wrangling project ensures that Razbana can efficiently process and analyze high-quality cloud computing data, improving business insights and operational efficiency.
 
+Phase 2
 
+Project Title: Understanding Public Art Data in Vancouver Using AWS
+
+Objective: The primary goal of this project is to conduct a descriptive analysis of public art records in Vancouver. Through this analysis, we aim to summarize key characteristics of artist biographies, identify gaps in documentation, and generate insights that can improve data collection and historical preservation.
+
+Dataset: The dataset includes public art records stored in AWS, containing the following key features:
+•	Artist Name: Name of the artist featured in the public art records.
+•	Biography: Text data containing the artist’s background information.
+•	Artwork Title: Title of the public artwork.
+•	Location: Geographical placement of the artwork in Vancouver.
+•	Creation Date: The date when the artwork was created or installed.
+•	Category: Type of public art (e.g., sculpture, mural, installation).
+
+Methodology:
+1.	Data Collection and Preparation:
+o	Extract data from the AWS Glue Data Catalog ("con-data-catalog-raz").
+o	Perform data cleaning to address missing biographies, correct formatting issues, and remove duplicates.
+
+Descriptive Statistics:
+o	Calculate summary statistics for key variables, including:
+	Total number of artists with and without biographies.
+	Distribution of artwork by category and location.
+	Average length of artist biographies.
+
+Data Visualization:
+o	Create visual representations to illustrate findings:
+	Bar charts showing the percentage of artists with and without biographies.
+	Heatmaps representing artwork distribution by location.
+	Pie charts depicting the types of public art installations.
+
+Data Quality Assessment:
+o	Identify missing or incomplete data in artist biographies.
+o	Assess potential inconsistencies in artwork categorization and location data.
+
+Insights and Findings:
+o	Summarize key findings, highlighting:
+	The extent of missing biographical data.
+	Common trends in public art placement and categorization.
+	Potential areas for data enhancement.
+
+Recommendations:
+o	Provide actionable recommendations based on the findings to improve data quality and completeness:
+	Enhance artist biography documentation efforts.
+	Standardize data entry processes for artwork classification.
+	Improve data governance for public art records.
+
+Tools and Technologies:
+•	AWS Athena: Querying structured datasets.
+•	AWS Glue Data Catalog: Organizing and structuring metadata.
+•	SQL: Extracting and analyzing data.
+•	Python (Pandas, Matplotlib, Seaborn): Data analysis and visualization.
+
+Deliverables:
+•	A detailed report summarizing the descriptive analysis, findings, and recommendations.
+•	Visualizations and dashboards to present key insights clearly.
+•	A presentation for stakeholders to communicate important findings and suggestions for data improvement.
+This descriptive analysis project aims to provide a comprehensive understanding of public art records in Vancouver, enabling better historical documentation and improved data management strategies.
